@@ -9,6 +9,21 @@
 #define NAME "Jin-Young Shin"
 #define ADDRESS "Anyang, Korea"
 
+void print_centered_str(char str[]);
+void print_multiple_chars(char c, int n_stars, bool print_newline); // prototype
+
+int main()
+{
+	print_multiple_chars('*', WIDTH, true);
+
+	print_centered_str(NAME);
+	print_centered_str(ADDRESS);
+	print_centered_str("Hello, How are you?");
+
+	print_multiple_chars('*', WIDTH, true);
+	return 0;
+}
+
 void print_multiple_chars(char c, int n_stars, bool print_newline)
 {
 	for (int i = 0; i < n_stars; ++i)
@@ -24,16 +39,4 @@ void print_centered_str(char str[])
 	n_blanks = (WIDTH - strlen(str)) / 2;
 	print_multiple_chars(' ', n_blanks, false);
 	printf("%s\n", str);
-}
-
-int main()
-{
-	print_multiple_chars('*', WIDTH, true);
-
-	print_centered_str(NAME);
-	print_centered_str(ADDRESS);
-	print_centered_str("How are you?");
-
-	print_multiple_chars('*', WIDTH, true);
-	return 0;
 }
