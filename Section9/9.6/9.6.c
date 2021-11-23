@@ -16,5 +16,8 @@ void my_func(int n)
 {
 	printf("Lv.%d, address of variable n = %p\n", n, &n);
 
-	my_func(n + 1);
+	if (n < 4) // stop condition
+		my_func(n + 1);
+
+	printf("Lv.%d, address of variable n = %p\n", n, &n); // stack에 쌓인 값 출력
 }

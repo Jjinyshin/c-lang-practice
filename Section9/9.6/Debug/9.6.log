@@ -1,3 +1,2 @@
 ﻿  9.6.c
-C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\Section9\9.6\9.6.c(20): warning C4717: 'my_func': recursive on all control paths, function will cause runtime stack overflow
   9.6.vcxproj -> C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\Section9\Debug\9.6.exe
