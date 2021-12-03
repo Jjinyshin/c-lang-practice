@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyFirstProj.c">
+    <ClCompile Include="9.8.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
