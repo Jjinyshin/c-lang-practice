@@ -81,6 +81,7 @@ void Month_average(double arr[][MONTHS])
 	for (int j = 0; j < MONTHS; j++)
 	{
 		double sum = 0;
+
 		for (int i = 0; i < YEARS; i++)
 		{
 			sum += arr[i][j];
