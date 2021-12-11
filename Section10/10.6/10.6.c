@@ -39,16 +39,19 @@ void printTemp(double arr[][MONTHS])
 {
 	printf("[Temperature Data]\n");
 	printf("Year index :");
-	for (int i = 1; i < 13; i++)
-		printf("\t%d", i);
-	
+	for (int i = 0; i < MONTHS; i++)
+		printf("\t%d", i + 1);
+
+	printf("\n");
+
 	for (int j = 0; j < YEARS; j++)
 	{
-		printf("\nYear %d :", j+2019);
+		printf("Year %d :", j+2019);
 		for (int i = 0; i < MONTHS; i++)
 		{
 			printf("\t%.1f", arr[j][i]);
 		}
+		printf("\n");
 	}
 	printf("\n");
 }
@@ -59,13 +62,11 @@ void Year_average(double arr[][MONTHS])
 
 	for (int j = 0; j < YEARS; j++)
 	{
-		printf("Year %d :", j + 2019);
-		double sum = 0;
+		double sum = 0.0;
 		for (int i = 0; i < MONTHS; i++)
-		{
 			sum += arr[j][i];
-		}
-		printf("average temperature = %.1f\n", sum / MONTHS);
+
+		printf("Year %d : average temperature = %.1f\n", j + 2019, sum / (double)MONTHS);
 	}
 	printf("\n");
 }
