@@ -1,6 +1,15 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+//int main()
+//{
+//	int a[3] = {1,2,3};
+//	int* pd = a;
+//	printf("%d %d %d", pd[0], a[0], *pd);
+//
+//	return 0;
+//}
+
 double average(double*, double*);
 
 int main()
