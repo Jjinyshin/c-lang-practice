@@ -51,11 +51,12 @@ int main()
 	}
 	printf("\n");*/
 
-	printf("%p\n", &parr);
+	/*printf("%p\n", &parr);
 	printf("%p\n", parr);
 	printf("%p\n", &parr[0]);
 	printf("%p\n", parr[0]);
 
+	printf("%p\n", arr);
 	printf("%p\n", arr);
 	printf("%p\n", &arr[0]);
 
@@ -63,7 +64,21 @@ int main()
 	printf("%p\n", &arr[0][0]);
 
 	printf("%d\n", arr[0][0]);
-	printf("%d\n", parr[0][0]);
+	printf("%d\n", parr[0][0]);*/
+
+	printf("%p\n", *(arr + 1));
+	printf("%p\n", &arr[1]);
+
+	printf("%p\n", *arr + 2);
+	printf("%p\n", &arr[0][2]);
+
+	printf("%p\n", *(arr + 1) + 1);
+	printf("%p\n", &arr[1][1]);
+
+	// quest: print '5' in two ways
+	printf("%d\n", *(*(arr + 1) + 1));
+	printf("%d\n", arr[1][1]);
+
 
 	return 0;
 }
