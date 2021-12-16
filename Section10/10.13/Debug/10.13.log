@@ -1,2 +1,6 @@
 ﻿  10.13.c
+C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\Section10\10.13\10.13.c(81,9): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int (*)[3]'
+C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\Section10\10.13\10.13.c(81,9): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 2 has type 'int (*)[3]'
+C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\Section10\10.13\10.13.c(82,9): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int (*)[3]'
+C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\Section10\10.13\10.13.c(82,9): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 2 has type 'int *'
   10.13.vcxproj -> C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\Section10\Debug\10.13.exe
