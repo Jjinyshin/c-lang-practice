@@ -37,19 +37,33 @@ int main()
 
 	int arr[2][3] = { {1, 2, 3}, {4, 5, 6} };
 
-	//int* parr[2] = { arr[0], arr[1] };
-	int* parr[2];
+	int* parr[2] = { arr[0], arr[1] }; // 포인터의 배열
+	/*int* parr[2]; 
 	parr[0] = arr[0];
-	parr[1] = parr[1];
+	parr[1] = parr[1];*/
 
-	for (int j = 0; j < 2; ++j)
+	/*for (int j = 0; j < 2; ++j)
 	{
 		for (int i = 0; i < 3; ++i)
 			printf("%d %d %d %d\n", 
 				arr[j][i], parr[j][i], *(parr[j] + i), *(*(parr + j) + i));
 		printf("\n");
 	}
-	printf("\n");
+	printf("\n");*/
+
+	printf("%p\n", &parr);
+	printf("%p\n", parr);
+	printf("%p\n", &parr[0]);
+	printf("%p\n", parr[0]);
+
+	printf("%p\n", arr);
+	printf("%p\n", &arr[0]);
+
+	printf("%p\n", arr[0]);
+	printf("%p\n", &arr[0][0]);
+
+	printf("%d\n", arr[0][0]);
+	printf("%d\n", parr[0][0]);
 
 	return 0;
 }
