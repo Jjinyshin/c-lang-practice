@@ -10,7 +10,12 @@
       "ProjectGuid": "0405d063-7b45-479f-b391-633cffd24d83",
       "DisplayName": "CProgrammingStart1",
       "ColorIndex": 1
+    },
+    "4b8a1c5a-a2fb-40d3-accf-48337194d02b": {
+      "ProjectGuid": "4b8a1c5a-a2fb-40d3-accf-48337194d02b",
+      "DisplayName": "assignment1",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
