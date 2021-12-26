@@ -1,4 +1,2 @@
-﻿  1-1.c
-C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\assignment\assignment1\1-1.c(13,17): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\assignment\assignment1\1-1.c(15,31): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  1-2.c
   assignment1.vcxproj -> C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\assignment\x64\Debug\assignment1.exe
