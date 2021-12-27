@@ -16,19 +16,17 @@ void strsum(char to[], char from1[], char from2[])
 
 void strmul(char s[], char t[], int n)
 {
-    int frst = 0;
-    int j, cnt = 0;
-    for (int i = 0; i < n; ++i)
+    int i, j, cnt = 0;
+
+    for (i = 0; i < n; ++i)
     {
         j = 0;
         while (t[j] != '\0')
         {
-            s[frst + j] = t[j];
+            s[cnt] = t[j];
             ++j;
             ++cnt;
         }
-
-        frst += j;
     }
     s[cnt] = '\0';
 }
