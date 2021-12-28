@@ -24,7 +24,7 @@ main() {
         {
             printf("\t%3d", k);
             count++;
-            if ((count % 15) == 0 && count >= 15)
+            if (count % 15 == 0)
                 printf("\n\n");
         }
     }

@@ -1,5 +1,0 @@
-﻿  9.2.c
-C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\Section9\9.2.c(18,23): warning C4087: 'print_multiple_chars': declared with 'void' parameter list
-C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\Section9\9.2.c(24,23): warning C4087: 'print_multiple_chars': declared with 'void' parameter list
-C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\Section9\9.2.c(29,1): warning C4027: function declared without formal parameter list
-  Section9.vcxproj -> C:\Users\82102\OneDrive\바탕 화면\뇽\Computer Science\TBC\9~16실습\c-lang-practice\Section9\Debug\9.2.exe
