@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3-8.c">
+    <ClCompile Include="3.8.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="stack.c">

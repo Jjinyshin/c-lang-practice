@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{08ea7d32-08d0-4e30-b572-bcc3fb1cd39f}</ProjectGuid>
-    <RootNamespace>assignment38</RootNamespace>
+    <ProjectGuid>{5911138d-24a4-4178-a359-7f6538ffc576}</ProjectGuid>
+    <RootNamespace>assignment4_9</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>assignment4-8</ProjectName>
+    <ProjectName>assignment5-9</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,12 +140,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="3.8.c" />
-    <ClCompile Include="getop.c" />
-    <ClCompile Include="stack.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="calc.h" />
+    <ClCompile Include="5.9prac.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="5.9.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

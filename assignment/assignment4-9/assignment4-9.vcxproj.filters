@@ -15,19 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="4.7.c">
+    <ClCompile Include="5.9prac.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="stack.c">
+    <ClCompile Include="5.9.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="getop.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="calc.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
